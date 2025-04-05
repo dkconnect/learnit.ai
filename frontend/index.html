@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LearnIt.ai (Test)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 align=center>LearnIt.ai (Beta - Test Version)</h1>
+        <p align=center>Upload a PDF and get a summary, notes, and quiz questions.</p>
 
+        <input type="file" id="pdfFile" accept=".pdf" />
+        <button align=center onclick="uploadPDF()">Upload & Analyze</button>
+
+        <div id="loading" style="display: none;">Analyzing your PDF...</div>
+        <pre id="output"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
