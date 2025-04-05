@@ -1,1 +1,16 @@
 # learnit.ai
+
+#learnit/
+│
+├── backend/
+│   ├── main.py         # FastAPI app
+│   ├── utils.py        # PDF parsing, LLM calls
+│   ├── requirements.txt
+│
+├── frontend/
+│   ├── index.html      # Minimal UI
+│   ├── script.js       # Handles upload & fetch
+│   ├── style.css
+│
+└── README.md
+
